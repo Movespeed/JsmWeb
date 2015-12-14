@@ -8,8 +8,6 @@ var session = require('express-session');
 var methodOverride = require('method-override');
 var flash = require('connect-flash');
 var mongoose   = require('mongoose');
-var configAuth = require('./config/auth');
-
 var routes = require('./routes/index'),
     users = require('./routes/users'),
     posts = require('./routes/posts');
